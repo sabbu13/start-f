@@ -1,0 +1,494 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* Header Design */
+
+.header-container {
+    background-image: url('Images/yellowbackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-background {
+    position: relative;
+    overflow: auto;
+}
+
+.header-background img {
+    position: relative;
+    float: right;
+}
+
+.header-logo {
+    float: left;
+    padding: 16px 0 0 40px;
+}
+
+.details {
+    position: relative;
+}
+
+.contact-details {
+    position: absolute;
+    float: right;
+    top: 20px;
+    right: 90px;
+}
+
+.contact-details h4 {
+    font-weight: normal;
+}
+
+.contact-details h3 {
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.iconphone {
+    position: relative;
+
+}
+
+.iconphone img {
+    position: relative;
+    top: -48px;
+    left: 30px;
+}
+
+
+.link {
+    position: relative;
+}
+
+ul {
+    list-style: none;
+    position: absolute;
+    float: right;
+    right: 15px;
+    top: 40px;
+}
+
+ul li {
+
+    padding: 45px;
+    float: left;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+ul li a:hover {
+    cursor: pointer;
+}
+.head-content {
+    position: relative;
+}
+
+
+.head-details .plate {
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    width: 750px;
+    height: 800px;
+}
+
+.head-details {
+    position: relative;
+}
+
+.head {
+    position: absolute;
+    top: 180px;
+    left: 180px;
+    padding: 15px;
+    text-align: center;
+    line-height: 45px;
+}
+
+.head button {
+    font-weight: bold;
+    background-color: #ffe001;
+    color: black;
+    cursor: pointer;
+    transition: background-color 1s linear, color 1s linear;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.head button:hover {
+    background-color: gray;
+    color: white;
+}
+
+.leaf-two {
+    position: relative;
+}
+
+.leaf-two img {
+    position: absolute;
+    top: 125px;
+    left: 150px;
+}
+
+.leaf-three {
+    position: relative;
+
+}
+
+
+.leaf-three img {
+    position: absolute;
+    left: 0px;
+    top: -285px;
+}
+
+.leaf-four {
+    position: relative;
+}
+
+.leaf-four img {
+    position: absolute;
+    top: 130px;
+    left: 50%;
+}
+
+.leaf-five {
+    position: relative;
+}
+
+.leaf-five img {
+    position: absolute;
+    top: 630px;
+    right: 590px;
+}
+
+.leaf-six {
+    position: relative;
+}
+
+.leaf-six img {
+    position: absolute;
+    right: 70px;
+    top: 600px;
+}
+
+/* Section Two Design */
+
+.img-container {
+    background-image: url('Images/Rectangle.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-three {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.img-three img {
+    height: 360px;
+    width: 360px;
+    transition: 0.2s ease-in-out;
+}
+
+.img-three img:hover {
+    transform: scale(1.05);
+    transition: ease-in-out;
+}
+
+.img-container h2 {
+    line-height: 1.4;
+}
+
+.img-container button {
+    font-weight: bold;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    transition: background-color 1s linear, color 1s linear;
+    border: 1px solid #ffe001;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+
+
+.img-container button:hover {
+    background-color: #ffe001;
+    color: black;
+}
+
+/*Section Three Design */
+
+.heading p {
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.pasta {
+
+    background-image: url('Images/Image.png'), url('Images/Chaumin.png');
+    background-position: left, right;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 505px 350px, 505px 350px;
+}
+
+
+.pasta img {
+    position: relative;
+    top: 10px;
+    margin-top: 15px;
+    width: 704px;
+    height: 460px;
+    display: block;
+    margin: auto;
+    transition: 0.2s ease-in-out;
+}
+
+.pasta img:hover {
+    transform: scale(1.05);
+    transition: ease-in-out;
+}
+
+.circle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.circle {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin: 5px;
+    transition: 0.2s ease-in-out;
+    background-color: gray;
+}
+
+.circle:hover {
+    background-color: #ffe001;
+}
+
+.circle-grey {
+    background-color: gray;
+    transition: 0.2s ease-in-out;
+}
+
+.circle-grey:hover {
+    background-color: #ffe001;
+}
+
+/* Section Four Design */
+.card {
+    position: relative;
+    display: flex;
+    padding: 5px;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.card img {
+    width: 600px;
+    height: 426px;
+    transition: 0.2s ease-in-out;
+}
+
+.card img:hover {
+    transform: scale(1.05);
+    transition: ease-in-out;
+}
+
+.card h2 {
+    color: #ffff;
+    font-weight: bold;
+    padding: 5px;
+    position: relative;
+    left: 36px;
+    line-height: 1.4;
+
+}
+
+.top-left {
+    position: absolute;
+    top: 80px;
+    left: 16px;
+
+}
+
+.card-two {
+    position: relative;
+    left: 10px;
+    display: grid;
+    row-gap: 38px;
+}
+
+.card-two img {
+    width: 600px;
+    height: 193px;
+    margin-left: 8px;
+}
+
+.top {
+    position: absolute;
+    top: 18px;
+}
+
+
+/* Section Five */
+
+.heading {
+    text-align: center;
+    margin-top: 36px;
+}
+
+.heading h2 {
+    padding: 3px;
+}
+
+
+.form-container {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 350px 350px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control input,
+button {
+    padding: 18px;
+    margin: 8px 0px;
+}
+
+
+.form-control button {
+    font-weight: bold;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    transition: background-color 1s linear, color 1s linear;
+}
+
+.form-control button:hover {
+    background-color: #ffe001;
+    color: black;
+}
+
+/* footer Design */
+footer {
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-image: url('Images/footer.png');
+    background-size: cover;
+    position: sticky;
+    overflow: auto;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.about p {
+    margin-top: 50px;
+    color: white;
+    font-size: 16px;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.add span {
+    color: white;
+}
+
+.add img {
+    position: relative;
+    top: 18px;
+    color: white;
+    padding: 8px 15px;
+
+}
+
+.copyright {
+    position: relative;
+    font-size: 28px;
+}
+
+
+.copyright p {
+    margin-top: 100px;
+    color: white;
+    font-size: 16px;
+}
+
+
+.social-media {
+    position: relative;
+    bottom: 18px;
+    background-color: rgb(255, 255, 255);
+    transition: background-color 0.1s, background-radius 0.1s;
+}
+
+
+.fa-brands {
+    float: right;
+    color: white;
+    padding: 0 8px;
+    font-size: 25px;
+    border-radius: 50%;
+}
+
+.fa-brands:hover {
+    background-color: #ffe001;
+    color: black;
+    border-radius: 50px;
+}
+
+/* Responsive the website */
+
+@media (max-width:600px) {
+
+    .card-two {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    /* footer {
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-image: url('Images/footer.png');
+    }
+
+    footer .container .logo {
+        padding: 1.5vw 3vw;
+
+    } */
+}
